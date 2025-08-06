@@ -1,0 +1,30 @@
+
+
+
+
+
+  /* Apply these styles to the parent container (ul) */
+.icon_links {
+  list-style: none; /* Remove default list bullet points */
+  display: flex; /* Use flexbox to arrange items in a row */
+  padding: 0; /* Remove default padding */
+}
+
+/* Apply these styles to each list item (li) */
+.icon_links li {
+  margin-right: 10px; /* Add some spacing between list items */
+}
+
+/* Apply these styles to the links (a) within list items */
+.icon_links li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #3bb19b; /* Set the text color to green */
+  font-size: 25px; /* Adjust the font size as needed */
+}
+
+.link{
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+}
+
+
